@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300
+}
+.btn-orange{
+    @apply bg-orange-400 text-white
+}
+.btn-white{
+    @apply bg-bookmark-white
+}
+.landing-bg{
+  @apply bg-[url('/img/bg4.jpg')] object-contain bg-top bg-no-repeat
+}
+.landing-wrapper{
+    @apply bg-gradient-to-b from-white/30 to-white backdrop-blur-lg
+}
